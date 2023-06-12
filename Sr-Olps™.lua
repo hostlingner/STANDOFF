@@ -24,7 +24,13 @@ gg.alert("ㅤ\n       ━━━━━━━━━━━━━━━〘 ⚠️ �
 os.exit() 
 end
 
-if gg.isPackageInstalled("com.hckeam.mjgql","com.termux")
+if gg.isPackageInstalled("com.hckeam.mjgql")
+then 
+gg.alert("ㅤ\n       ━━━━━━━━━━━━━━━〘 ❌ 〙━━━━━━━━━━━━━━━\n                                ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬\n                                         〘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 〙\n                    ᴘʀᴏᴊᴇᴛᴏ ᴄʀɪᴀᴅᴏ ᴇ ᴅᴇsᴇɴᴠᴏʟᴠɪᴅᴏ ᴘᴏʀ ᴢᴇɴᴏɴ\n                                   ᴇʀʀᴏ: ᴀɴᴛɪ ᴅᴇᴄʀʏᴘᴛ ᴅᴇᴛᴇᴄᴛ\n                                ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬                                              \n       ━━━━━━━━━━━━━━━〘 ❌ 〙━━━━━━━━━━━━━━━\n")
+ os.exit()
+end
+
+if gg.isPackageInstalled("com.termux")
 then 
 gg.alert("ㅤ\n       ━━━━━━━━━━━━━━━〘 ❌ 〙━━━━━━━━━━━━━━━\n                                ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬\n                                         〘 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 〙\n                    ᴘʀᴏᴊᴇᴛᴏ ᴄʀɪᴀᴅᴏ ᴇ ᴅᴇsᴇɴᴠᴏʟᴠɪᴅᴏ ᴘᴏʀ ᴢᴇɴᴏɴ\n                                   ᴇʀʀᴏ: ᴀɴᴛɪ ᴅᴇᴄʀʏᴘᴛ ᴅᴇᴛᴇᴄᴛ\n                                ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬                                              \n       ━━━━━━━━━━━━━━━〘 ❌ 〙━━━━━━━━━━━━━━━\n")
  os.exit()
