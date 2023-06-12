@@ -13,7 +13,7 @@ end
 
 local v = gg.getTargetInfo()
 if v.versionCode ~= 3051 then
-gg.alert('Este script só funciona com a versão do jogo 0.23.2 Você tem a versão do jogo', v.versionCode, 'Instale a versão 0.23.2 e tente novamente.')
+print('Este script só funciona com a versão do jogo 0.23.2 Você tem a versão do jogo', v.versionCode, 'Instale a versão 0.23.2 e tente novamente.')
  os.exit()
 end
 
