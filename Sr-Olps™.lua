@@ -11,6 +11,12 @@ hostling = gg.alert("ㅤ\n       ━━━━━━━━━━━━━━━�
 os.exit()
 end
 
+local v = gg.getTargetInfo()
+if v.versionCode ~= 291 then
+print('Este script só funciona com a versão do jogo 291. Você tem a versão do jogo', v.versionCode, 'Instale a versão 291 e tente novamente.')
+ os.exit()
+end
+
 if gg.getTargetPackage() == "com.axlebolt.standoff2" 
 then
 else
@@ -61,7 +67,7 @@ M4 .. "    ⛅    𝗖𝗘𝗨 𝗣𝗥𝗘𝗧𝗢     ˢᵉʳᵛⁱᵈᵒʳ\n"
 M5 .. "    ⚖️    𝗦𝗘𝗠 𝗥𝗘𝗖𝗢𝗜𝗟 𝗔𝗥𝗠𝗔𝗦     ˡᵒᵇᵇʸ / ˢᵉʳᵛⁱᵈᵒʳ\n",
 M6 .. "    🔳    𝗖𝗢𝗥 𝗣𝗟𝗔𝗬𝗘𝗥𝗦     ˢᵉʳᵛⁱᵈᵒʳ\n",
 M7 .. "    🔁    𝗔𝗡𝗧𝗜 𝗥𝗘𝗟𝗢𝗔𝗗 𝗔𝗥𝗠𝗔𝗦     ˡᵒᵇᵇʸ / ˢᵉʳᵛⁱᵈᵒʳ\n",
-M8 .. "    🎨    𝗖𝗛𝗔𝗡𝗚𝗘 𝗦𝗞𝗜𝗡     ˡᵒᵇᵇʸ / ˢᵉʳᵛⁱᵈᵒʳ\n"
+M8 .. "    🎨    𝗖𝗛𝗔𝗡𝗚𝗘 𝗦𝗞𝗜𝗡     ˡᵒᵇᵇʸ\n"
 
 }, nil, "")
 
@@ -268,13 +274,14 @@ gg.getResults(1)
 gg.editAll("72002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.clearResults()
 
+gg.toast("Você Trocou Arma M60\nPor Uma [ 🗡️ ] Karambit Claw")
+
 else
 
 main()
 
 end
 end
-
 
 while true do
 if gg.isVisible(true)
