@@ -278,7 +278,7 @@ gg.getResults(1)
 gg.editAll("72002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.clearResults()
 
-gg.toast("Você Trocou Arma M60\nPor Uma [ 🗡️ ] Karambit Claw")
+gg.toast("Você Trocou Arma M60 Turret\nPor Uma [ 🗡️ ] Karambit Claw")
 
 else
 
